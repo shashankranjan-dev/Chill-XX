@@ -3,14 +3,14 @@ import './Navbar.css'
 
 export default function Navbar() {
 
-    const menu = document.querySelector('#menu');
-    console.log(menu);
-    const sidebar = document.querySelector('.sidebar');
-    console.log(sidebar);
+    // const menu = document.querySelector('#menu');
+    // console.log(menu);
+    // const sidebar = document.querySelector('.sidebar');
+    // console.log(sidebar);
     
-    menu.addEventListener('click', function () {
-      sidebar.classList.toggle('show-sidebar');
-    });
+    // menu.addEventListener('click', function () {
+    //   sidebar.classList.toggle('show-sidebar');
+    // });
 
 
   return (
